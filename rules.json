@@ -3,7 +3,7 @@
         {
             "name": "大四喜",
             "fan": 88,
-            "exclude": ["小四喜", "三风刻", "幺九刻", "碰碰和", "圈风刻", "门风刻"],
+            "exclude": ["小四喜", "三风刻", "碰碰和", "圈风刻", "门风刻", "幺九刻"],
             "condition": "由4副风刻（杠）组成的和牌"
         },
         {
@@ -297,193 +297,194 @@
             "fan": 8,
             "exclude": ["和绝张"],
             "condition": "和别人补杠牌"
-        },
-        {
-            "name": "碰碰和",
-            "fan": 8,
-            "condition": "4副刻子"
-        },
-        {
-            "name": "混一色",
-            "fan": 8,
-            "exclude": ["缺一门"],
-            "condition": "单一花色+字牌"
-        },
-        {
-            "name": "三色三步高",
-            "fan": 8,
-            "condition": "三色递增顺子"
-        },
-        {
-            "name": "五门齐",
-            "fan": 8,
-            "condition": "包含所有牌类"
-        },
-        {
-            "name": "全求人",
-            "fan": 8,
-            "exclude": ["单钓将"],
-            "condition": "全部吃碰+单钓"
-        },
-        {
-            "name": "双暗杠",
-            "fan": 8,
-            "exclude": ["双暗刻"],
-            "condition": "2个暗杠"
-        },
-        {
-            "name": "双箭刻",
-            "fan": 8,
-            "exclude": ["箭刻"],
-            "condition": "2副箭刻"
         }
     ],
 
     "6番": [
         {
-            "name": "全带幺",
+            "name": "碰碰和",
             "fan": 6,
-            "condition": "每副牌带幺九"
+            "condition": "4副刻子"
         },
         {
-            "name": "不求人",
+            "name": "混一色",
             "fan": 6,
-            "exclude": ["门前清"],
-            "condition": "没有吃碰且自摸"
+            "exclude": ["缺一门"],
+            "condition": "单一花色+字牌"
         },
         {
-            "name": "双明杠",
+            "name": "三色三步高",
             "fan": 6,
-            "exclude": ["明杠"],
-            "condition": "2个明杠"
+            "condition": "三色递增顺子"
         },
         {
-            "name": "和绝张",
+            "name": "五门齐",
             "fan": 6,
-            "condition": "和第四张牌"
+            "condition": "包含所有牌类"
+        },
+        {
+            "name": "全求人",
+            "fan": 6,
+            "exclude": ["单钓将"],
+            "condition": "全部吃碰+单钓"
+        },
+        {
+            "name": "双暗杠",
+            "fan": 6,
+            "exclude": ["暗杠"],
+            "condition": "2个暗杠"
+        }
+        {
+            "name": "双箭刻",
+            "fan": 6,
+            "exclude": ["箭刻"],
+            "condition": "2副箭刻"
         }
     ],
 
     "4番": [
         {
-            "name": "箭刻",
+            "name": "全带幺",
             "fan": 4,
+            "condition": "每副牌带幺九"
+        },
+        {
+            "name": "不求人",
+            "fan": 4,
+            "exclude": ["门前清"],
+            "condition": "没有吃碰且自摸"
+        },
+        {
+            "name": "双明杠",
+            "fan": 4,
+            "exclude": ["明杠"],
+            "condition": "2个明杠"
+        },
+        {
+            "name": "和绝张",
+            "fan": 4,
+            "condition": "和第四张牌"
+        }
+
+    ],
+
+    "2番": [
+        {
+            "name": "箭刻",
+            "fan": 2,
             "condition": "中发白刻子"
         },
         {
             "name": "圈风刻",
-            "fan": 4,
+            "fan": 2,
             "exclude": ["幺九刻"],
             "condition": "与圈风相同的刻子"
         },
         {
             "name": "门风刻",
-            "fan": 4,
+            "fan": 2,
             "exclude": ["幺九刻"],
             "condition": "与门风相同的刻子"
         },
         {
             "name": "门前清",
-            "fan": 4,
+            "fan": 2,
             "condition": "没有吃碰"
         },
         {
             "name": "平和",
-            "fan": 4,
+            "fan": 2,
             "exclude": ["无字"],
             "condition": "4顺+序数将"
         },
         {
             "name": "四归一",
-            "fan": 4,
+            "fan": 2,
             "condition": "4张相同牌未杠"
         },
         {
             "name": "双同刻",
-            "fan": 4,
+            "fan": 2,
             "condition": "2个相同序数刻子"
         },
         {
             "name": "双暗刻",
-            "fan": 4,
+            "fan": 2,
             "condition": "2个暗刻"
         },
         {
             "name": "暗杠",
-            "fan": 4,
+            "fan": 2,
             "condition": "暗杠"
         },
         {
             "name": "断幺",
-            "fan": 4,
+            "fan": 2,
             "condition": "没有幺九牌"
         }
     ],
 
-    "2番": [
+    "1番": [
         {
             "name": "一般高",
-            "fan": 2,
+            "fan": 1,
             "condition": "相同顺子"
         },
         {
             "name": "喜相逢",
-            "fan": 2,
+            "fan": 1,
             "condition": "不同花色相同顺子"
         },
         {
             "name": "连六",
-            "fan": 2,
+            "fan": 1,
             "condition": "同花色6张连牌"
         },
         {
             "name": "老少副",
-            "fan": 2,
+            "fan": 1,
             "condition": "123+789顺子"
         },
         {
             "name": "幺九刻",
-            "fan": 2,
+            "fan": 1,
             "condition": "幺九牌刻子"
         },
         {
             "name": "明杠",
-            "fan": 2,
+            "fan": 1,
             "condition": "明杠"
         },
         {
             "name": "缺一门",
-            "fan": 2,
+            "fan": 1,
             "condition": "缺少一种花色"
         },
         {
             "name": "无字",
-            "fan": 2,
+            "fan": 1,
             "condition": "没有字牌"
         },
         {
             "name": "边张",
-            "fan": 2,
+            "fan": 1,
             "condition": "和边张"
         },
         {
             "name": "坎张",
-            "fan": 2,
+            "fan": 1,
             "condition": "和坎张"
         },
         {
             "name": "单钓将",
-            "fan": 2,
+            "fan": 1,
             "condition": "单钓将牌"
         },
         {
             "name": "自摸",
-            "fan": 2,
+            "fan": 1,
             "condition": "自摸和牌"
-        }
-    ],
-
-    "1番": [
+        },
         {
             "name": "花牌",
             "fan": 1,
